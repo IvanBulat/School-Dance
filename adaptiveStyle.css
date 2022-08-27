@@ -1,0 +1,725 @@
+.footer_items2 > ul {
+  padding: 0;
+  display: flex;
+  bottom: -5px;
+  position: absolute;
+  right: 25px;
+}
+.footer_items2 > ul > li {
+  list-style: none;
+  margin-right: 5px;
+}
+
+@media (max-width: 1400px) {
+  ul {
+    padding: 0;
+  }
+  main {
+    padding-top: 100px;
+  }
+  .container {
+    max-width: 1100px;
+  }
+  .header_container > img {
+    margin-right: 10px;
+  }
+  .nav_items > li {
+    margin: 42px 10px;
+  }
+  .events_items > div > img {
+    width: 320px;
+  }
+  .information_imgs > img:nth-child(1) {
+    width: 300px;
+  }
+  .information_imgs > img:nth-child(2) {
+    width: 250px;
+  }
+  .information_imgs > img:nth-child(3) {
+    width: 250px;
+  }
+  .information_imgs > img:nth-child(4) {
+    width: 300px;
+  }
+  .information_aboutUs > ul {
+    padding-left: 25px;
+  }
+  .information_aboutUs > * {
+    line-height: 23px;
+  }
+  .section_success {
+    height: 170px;
+  }
+  .section_gallery {
+    min-height: 550px;
+  }
+  .section_teacher {
+    min-height: 570px;
+  }
+  .teacher_img > img {
+    max-width: 450px;
+  }
+  .teacher_info > img {
+    max-width: 350px;
+  }
+  .show_row1 > iframe {
+    width: 300px;
+  }
+  .show_row2 > iframe {
+    width: 300px;
+  }
+  .prices_img > img {
+    max-width: 1100px;
+  }
+  .prices_lines {
+    left: 510px;
+  }
+  .section_achievement {
+    min-height: 420px;
+  }
+  .achievement_container > div > img:nth-child(1) {
+    max-width: 250px;
+  }
+  .achievement_container > div > img:nth-child(2) {
+    max-width: 220px;
+  }
+  .achievement_container > div > img:nth-child(3) {
+    max-height: 157px;
+  }
+  .achievement_container > div > img:nth-child(4) {
+    max-width: 250px;
+  }
+}
+@media (max-width: 1200px) {
+  h3 {
+    margin-bottom: 40px;
+  }
+  ul {
+    padding: 0;
+  }
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 900px;
+  }
+  .header_container > img {
+    width: 100px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  .nav_items > li {
+    margin: 42px 10px;
+  }
+  .section_mainScreen {
+    max-height: 500px;
+  }
+  .mainScreen_items > p {
+    margin-top: 170px;
+  }
+  .events_items > div > img {
+    margin-bottom: 18px;
+    width: 280px;
+  }
+  .information_imgs > img:nth-child(1) {
+    width: 260px;
+  }
+  .information_imgs > img:nth-child(2) {
+    width: 210px;
+  }
+  .information_imgs > img:nth-child(3) {
+    width: 210px;
+    bottom: 50px;
+  }
+  .information_imgs > img:nth-child(4) {
+    width: 250px;
+    top: 30px;
+    right: 85px;
+  }
+  .information_aboutUs > ul {
+    padding-left: 25px;
+  }
+  .information_aboutUs > * {
+    line-height: 20px;
+  }
+  .information_aboutUs > h2 {
+    margin-bottom: 18px;
+  }
+  .information_aboutUs > h2 > p {
+    margin-bottom: 12px;
+  }
+  .section_success {
+    height: 170px;
+  }
+  .section_gallery {
+    min-height: 500px;
+  }
+  .section_teacher {
+    min-height: 474px;
+  }
+  .teacher_img > img {
+    max-width: 375px;
+  }
+  .teacher_info > img {
+    max-width: 280px;
+  }
+  .show_row1 > iframe {
+    width: 270px;
+  }
+  .show_row2 > iframe {
+    width: 270px;
+  }
+  .section_prices {
+    min-height: 700px;
+  }
+  .prices_groups {
+    max-width: 750px;
+  }
+  .prices_groups > h2 {
+    font-size: 3rem;
+    line-height: 55px;
+  }
+  .prices_groups > button {
+    margin-top: 10px;
+  }
+  .prices_img > img {
+    max-width: 900px;
+  }
+  .prices_lines {
+    left: 380px;
+  }
+  .section_achievement {
+    min-height: 400px;
+  }
+  .achievement_container > div > img:nth-child(1) {
+    max-width: 200px;
+  }
+  .achievement_container > div > img:nth-child(2) {
+    max-width: 190px;
+  }
+  .achievement_container > div > img:nth-child(3) {
+    max-height: 136px;
+  }
+  .achievement_container > div > img:nth-child(4) {
+    max-width: 200px;
+  }
+  footer {
+    min-height: 550px;
+  }
+  .footer_logo > img {
+    margin: 25px auto 40px auto;
+  }
+  .footer_loc > iframe {
+    width: 340px;
+    height: 220px;
+  }
+}
+@media (max-width: 992px) {
+  button {
+    font-size: 16px;
+    width: 280px;
+  }
+  html {
+    font-size: 12px;
+  }
+  main {
+    padding-top: 90px;
+  }
+  .container {
+    max-width: 720px;
+  }
+  header {
+    height: 90px;
+  }
+  .header_container {
+    justify-content: center;
+  }
+  .header_container > img {
+    width: 90px;
+    height: 60px;
+    margin: 14px 60px 14px 0;
+  }
+  .navigation {
+    display: none;
+  }
+  .contact > p {
+    display: none;
+  }
+  .contacts > li {
+    margin: 30px 4px;
+  }
+  .contacts > li > img {
+    width: 28px;
+  }
+  .section_mainScreen {
+    max-height: 390px;
+  }
+  .mainScreen_items > p {
+    margin-top: 100px;
+  }
+  .events_items > div > img {
+    width: 220px;
+  }
+  .section_information {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+  .information_items {
+    display: block;
+    position: relative;
+  }
+  .information_imgs {
+    width: 100%;
+  }
+  .information_imgs > img:nth-child(1) {
+    top: 40px;
+    left: 60px;
+    width: 350px;
+  }
+  .information_imgs > img:nth-child(2) {
+    right: 0;
+    width: 280px;
+  }
+  .information_imgs > img:nth-child(3) {
+    bottom: 80px;
+    left: 60px;
+    width: 280px;
+  }
+  .information_imgs > img:nth-child(4) {
+    top: 40px;
+    right: 70px;
+    width: 350px;
+  }
+  .information_aboutUs > * {
+    line-height: 22px;
+  }
+  .information_aboutUs > h2 {
+    position: absolute;
+    bottom: 1200px;
+    left: 300px;
+  }
+  .success__name {
+    font-size: 1.3rem;
+  }
+  .success__numbers {
+    font-size: 4rem;
+  }
+  .section_gallery {
+    min-height: 400px;
+  }
+  .section_teacher {
+    min-height: 365px;
+  }
+  .teacher_info > p {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  .teacher_info > h2 {
+    margin-bottom: 18px;
+  }
+  .teacher_info > img {
+    max-width: 200px;
+  }
+  .teacher_img > img {
+    max-width: 290px;
+  }
+  .show_row1 {
+    margin-bottom: 10px;
+  }
+  .show_row1 > iframe {
+    width: 240px;
+  }
+  .show_row2 > iframe {
+    width: 230px;
+  }
+  .section_prices {
+    min-height: 450px;
+  }
+  .prices_groups {
+    max-width: 600px;
+  }
+  .prices_groups > h2 {
+    line-height: 50px;
+  }
+  .prices_groups > p {
+    line-height: 50px;
+  }
+  .prices_groups > a {
+    line-height: 45px;
+    font-size: 16px;
+  }
+  .prices_img > img {
+    max-width: 650px;
+  }
+  .prices_lines {
+    left: 305px;
+  }
+  .section_achievement {
+    min-height: 315px;
+  }
+  .achievement_container > div {
+    padding-top: 20px;
+  }
+  .achievement_container > div > img:nth-child(1) {
+    max-width: 160px;
+  }
+  .achievement_container > div > img:nth-child(2) {
+    max-width: 150px;
+  }
+  .achievement_container > div > img:nth-child(3) {
+    max-height: 107px;
+  }
+  .achievement_container > div > img:nth-child(4) {
+    max-width: 160px;
+  }
+  .achievement_container > h2 {
+    position: relative;
+    top: 50px;
+  }
+  .footer_logo > img {
+    margin: 20px auto 30px auto;
+    width: 100px;
+  }
+  .footer_info {
+    display: none;
+  }
+  .footer_loc > iframe {
+    width: 280px;
+    height: 200px;
+  }
+  .footer_items2 > div {
+    max-width: 750px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 500px;
+  }
+  .section_mainScreen {
+    max-height: 295px;
+  }
+  .mainScreen_elements > h1 {
+    font-size: 3.7rem;
+  }
+  .mainScreen_elements > button {
+    width: 250px;
+  }
+  .mainScreen_items > img {
+    width: 10px;
+  }
+  .mainScreen_items > p {
+    margin-bottom: 15px;
+    margin-top: 50px;
+  }
+  .events_container {
+    padding-bottom: 50px;
+  }
+  .events_items {
+    display: block;
+  }
+  .events_items > div > img {
+    width: 250px;
+    display: flex;
+    margin: 0 auto 24px auto;
+  }
+  .events_items > div > p {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .section_information {
+    padding-top: 50px;
+  }
+  .information_imgs > img:nth-child(1) {
+    width: 250px;
+    left: 40px;
+    top: 30px;
+  }
+  .information_imgs > img:nth-child(2) {
+    width: 180px;
+    left: 10px;
+  }
+  .information_imgs > img:nth-child(3) {
+    width: 180px;
+    left: 40px;
+    bottom: 25px;
+  }
+  .information_imgs > img:nth-child(4) {
+    width: 250px;
+    right: 60px;
+    top: 35px;
+  }
+  .information_aboutUs > h2 {
+    bottom: 940px;
+    left: 210px;
+  }
+  .section_gallery {
+    min-height: 300px;
+  }
+  .section_teacher {
+    min-height: 276px;
+  }
+  .teacher_img > img {
+    max-width: 210px;
+  }
+  .teacher_info > img {
+    max-width: 130px;
+  }
+  .teacher_info > p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .teacher_info > h2 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+  .show_row1 {
+    margin-bottom: 0;
+    display: block;
+  }
+  .show_row1 > iframe {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 300px;
+  }
+  .show_row2 {
+    display: block;
+  }
+  .show_row2 > iframe {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 300px;
+  }
+  .section_prices {
+    min-height: 500px;
+  }
+  .prices_groups {
+    max-width: 600px;
+    bottom: 40px;
+  }
+  .prices_img > img {
+    max-width: 90%;
+  }
+  .prices_lines {
+    left: 200px;
+  }
+  .section_achievement {
+    min-height: 237px;
+  }
+  .achievement_container > div {
+    padding-top: 0;
+  }
+  .achievement_container > div > img:nth-child(1) {
+    max-width: 120px;
+  }
+  .achievement_container > div > img:nth-child(2) {
+    max-width: 100px;
+  }
+  .achievement_container > div > img:nth-child(3) {
+    max-height: 71px;
+  }
+  .achievement_container > div > img:nth-child(4) {
+    max-width: 120px;
+  }
+  .achievement_container > h2 {
+    top: 30px;
+  }
+  footer {
+    min-height: 500px;
+  }
+  .footer_loc > iframe {
+    width: 240px;
+    height: 170px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 300px;
+  }
+  .header {
+    height: 80px;
+  }
+  .header_container > img {
+    margin: 14px 30px 14px 0;
+    width: 80px;
+    height: 55px;
+  }
+  .section_mainScreen {
+    background: url(./Image/main_screen/bg\ image2.png) center/100% no-repeat;
+    max-height: 85vh;
+  }
+  .mainScreen_elements > h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 16px;
+  }
+  .mainScreen_items > p {
+    text-align: center;
+    font-size: 1.0625rem;
+    margin-bottom: 23px;
+    margin-top: 180px;
+  }
+  .section_information {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .information_imgs {
+    display: block;
+  }
+  .information_imgs > img:nth-child(1) {
+    display: none;
+  }
+  .information_imgs > img:nth-child(2) {
+    display: none;
+  }
+  .information_imgs > img:nth-child(3) {
+    width: 220px;
+  }
+  .information_imgs > img:nth-child(4) {
+    display: none;
+  }
+  .information_aboutUs > h2 {
+    bottom: 880px;
+    left: 110px;
+  }
+  .section_success {
+    height: 190px;
+  }
+  .success_container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px 20px;
+  }
+  .section_gallery {
+    min-height: 500px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+  }
+  .section_gallery > img:nth-child(3) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .section_gallery > img:nth-child(4) {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .section_teacher {
+    background: url(./Image/Irina/Back.png) center/100% no-repeat;
+    min-height: 500px;
+  }
+  .teacher_container {
+    margin: auto;
+  }
+  .teacher_items {
+    grid-template-columns: 1fr;
+  }
+  .teacher_info {
+    max-width: 200px;
+  }
+  .teacher_info > h2 {
+    font-size: 1.7rem;
+  }
+  .teacher_info > p {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+  }
+  .teacher_info > img {
+    max-width: 170px;
+  }
+  .teacher_img {
+    display: none;
+  }
+  .show_container {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .show_row1 > iframe {
+    margin: 0 auto 15px auto;
+    width: 220px;
+  }
+  .show_row2 > iframe {
+    margin: 0 auto 15px auto;
+    width: 220px;
+  }
+  .prices_groups {
+    bottom: 10px;
+  }
+  .prices_groups > button {
+    width: 195px;
+  }
+  .prices_arrowRight {
+    top: 40%;
+    right: 25px;
+  }
+  .prices_arrowLeft {
+    top: 40%;
+    right: 230px;
+  }
+  .prices_lines {
+    left: 110px;
+  }
+  .section_achievement {
+    background: black center/100% no-repeat;
+    min-height: 650px;
+    padding-bottom: 30px;
+  }
+  .achievement_container > h2 {
+    top: -20px;
+  }
+  .achievement_container > div {
+    display: block;
+  }
+  .achievement_container > div > img {
+    display: block;
+    margin: 0 auto 15px auto;
+    max-width: 200px;
+  }
+  .achievement_container > div > img:nth-child(1) {
+    max-width: 140px;
+  }
+  .achievement_container > div > img:nth-child(2) {
+    max-width: 140px;
+  }
+  .achievement_container > div > img:nth-child(3) {
+    max-height: 90px;
+  }
+  .achievement_container > div > img:nth-child(4) {
+    max-width: 140px;
+    margin-bottom: 0;
+  }
+  .footer_items1 {
+    display: block;
+  }
+  .footer_loc > h3 {
+    display: none;
+  }
+  .footer_loc > iframe {
+    width: 100%;
+  }
+  .footer_contacts {
+    padding: 0 0 30px 40px;
+  }
+  .footer_contacts > h3 {
+    display: none;
+  }
+  .footer_items2 > ul > img {
+    width: 20px;
+  }
+  .section_teacher {
+    margin: auto;
+    display: flex;
+  }
+  .footer_items2 {
+    padding-bottom: 20px;
+  }
+  .footer_items2 > p {
+    margin-left: 80px;
+  }
+  .footer_items2 > ul {
+    position: static;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=adaptiveStyle.css.map */
