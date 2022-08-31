@@ -48,7 +48,7 @@ header {
 }
 
 .section_mainScreen {
-  background: url(./Image/main_screen/bg\ image.png) center/100% no-repeat;
+  background: url(./Image/main_screen/bg\ image.png) center/100%  no-repeat;
   height: 100vh;
   display: flex;
 }

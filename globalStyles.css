@@ -1,6 +1,5 @@
-@import "http://fonts.fontstorage.com/import/bebasneue.css";
-@import "http://fonts.fontstorage.com/import/lato.css";
-@import "http://fonts.fontstorage.com/import/roboto.css";
+@import './fonts/bebasneue.css';
+@import './fonts/lato.css';
 
 * {
   margin: 0;
