@@ -548,7 +548,7 @@
     height: 55px;
   }
   .section_mainScreen {
-    background: url(./Image/main_screen/bg\ image2.png) center/100% no-repeat;
+    background: url(./Image/main_screen/bg\ image2.png) center/100% 100% no-repeat;
     max-height: 85vh;
   }
   .mainScreen_elements > h1 {

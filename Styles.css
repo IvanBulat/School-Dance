@@ -48,13 +48,13 @@ header {
 }
 
 .section_mainScreen {
-  background: url(./Image/main_screen/bg\ image.png) center/100%  no-repeat;
-  height: 100vh;
+  background: url(./Image/main_screen/bg\ image.png) center/100% 100%  no-repeat;
   display: flex;
+  padding-top: 100px;
 }
 
 .mainScreen_container {
-  margin: auto auto 20px auto;
+  margin: 0 auto;
 }
 
 .mainScreen_elements > h1 {
@@ -88,6 +88,14 @@ header {
   }
 }
 
+.mainScreen_elements > button {
+  margin: 0 auto;
+}
+
+.mainScreen_items {
+  margin-top: 30px;
+}
+
 .mainScreen_items > p {
   text-align: center;
   font-size: 1.0625rem;
@@ -95,13 +103,9 @@ header {
   margin-top: 209px;
 }
 
-.mainScreen_elements > button {
-  margin: 0 auto;
-}
-
 .mainScreen_items > img {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 .section_events {
